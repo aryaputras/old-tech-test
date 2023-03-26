@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C018E74F26B876FF00259CDD /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018E74E26B876FF00259CDD /* GridViewModel.swift */; };
+		C02AAB9526B92BE900604F3C /* WaterfallGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02AAB9426B92BE900604F3C /* WaterfallGridView.swift */; };
+		C07CC7CA26B849C300F9EAF2 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07CC7C926B849C300F9EAF2 /* ImageLoader.swift */; };
+		C0853D0726B8014D00DA2F2A /* Cermati_UnsplashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0853D0626B8014D00DA2F2A /* Cermati_UnsplashApp.swift */; };
+		C0853D0926B8014D00DA2F2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0853D0826B8014D00DA2F2A /* ContentView.swift */; };
+		C0853D0B26B8014F00DA2F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0853D0A26B8014F00DA2F2A /* Assets.xcassets */; };
+		C0853D0E26B8014F00DA2F2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0853D0D26B8014F00DA2F2A /* Preview Assets.xcassets */; };
+		C0853D1926B8014F00DA2F2A /* Cermati_UnsplashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0853D1826B8014F00DA2F2A /* Cermati_UnsplashTests.swift */; };
+		C0853D2426B8014F00DA2F2A /* Cermati_UnsplashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0853D2326B8014F00DA2F2A /* Cermati_UnsplashUITests.swift */; };
+		C0853D3526B801CB00DA2F2A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0853D3426B801CB00DA2F2A /* Model.swift */; };
+		C0853D3A26B8026500DA2F2A /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0853D3926B8026500DA2F2A /* SearchViewModel.swift */; };
+		C0853D3F26B8053200DA2F2A /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0853D3E26B8053200DA2F2A /* GridView.swift */; };
+		C0DEBB9E26B85A4D008C2DDD /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DEBB9D26B85A4D008C2DDD /* UIColor+Hex.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0853D1526B8014F00DA2F2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0853CFB26B8014C00DA2F2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0853D0226B8014D00DA2F2A;
+			remoteInfo = "Cermati-Unsplash";
+		};
+		C0853D2026B8014F00DA2F2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0853CFB26B8014C00DA2F2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0853D0226B8014D00DA2F2A;
+			remoteInfo = "Cermati-Unsplash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C018E74E26B876FF00259CDD /* GridViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		C02AAB9426B92BE900604F3C /* WaterfallGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallGridView.swift; sourceTree = "<group>"; };
+		C07CC7C926B849C300F9EAF2 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		C0853D0326B8014D00DA2F2A /* Cermati-Unsplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cermati-Unsplash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0853D0626B8014D00DA2F2A /* Cermati_UnsplashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cermati_UnsplashApp.swift; sourceTree = "<group>"; };
+		C0853D0826B8014D00DA2F2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0853D0A26B8014F00DA2F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0853D0D26B8014F00DA2F2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0853D0F26B8014F00DA2F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0853D1426B8014F00DA2F2A /* Cermati-UnsplashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cermati-UnsplashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0853D1826B8014F00DA2F2A /* Cermati_UnsplashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cermati_UnsplashTests.swift; sourceTree = "<group>"; };
+		C0853D1A26B8014F00DA2F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0853D1F26B8014F00DA2F2A /* Cermati-UnsplashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cermati-UnsplashUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0853D2326B8014F00DA2F2A /* Cermati_UnsplashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cermati_UnsplashUITests.swift; sourceTree = "<group>"; };
+		C0853D2526B8014F00DA2F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0853D3426B801CB00DA2F2A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C0853D3926B8026500DA2F2A /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		C0853D3E26B8053200DA2F2A /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		C0DEBB9D26B85A4D008C2DDD /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0853D0026B8014D00DA2F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0853D1126B8014F00DA2F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0853D1C26B8014F00DA2F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C018E75026B8770D00259CDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0853D3426B801CB00DA2F2A /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C018E75226B8771E00259CDD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C07CC7C926B849C300F9EAF2 /* ImageLoader.swift */,
+				C0DEBB9D26B85A4D008C2DDD /* UIColor+Hex.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C018E75426B8772C00259CDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0853D3E26B8053200DA2F2A /* GridView.swift */,
+				C02AAB9426B92BE900604F3C /* WaterfallGridView.swift */,
+				C0853D0826B8014D00DA2F2A /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C018E75526B88E3400259CDD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C018E74E26B876FF00259CDD /* GridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C018E75626B88E4200259CDD /* Trash */ = {
+			isa = PBXGroup;
+			children = (
+				C0853D3926B8026500DA2F2A /* SearchViewModel.swift */,
+			);
+			path = Trash;
+			sourceTree = "<group>";
+		};
+		C0853CFA26B8014C00DA2F2A = {
+			isa = PBXGroup;
+			children = (
+				C0853D0526B8014D00DA2F2A /* Cermati-Unsplash */,
+				C0853D1726B8014F00DA2F2A /* Cermati-UnsplashTests */,
+				C0853D2226B8014F00DA2F2A /* Cermati-UnsplashUITests */,
+				C0853D0426B8014D00DA2F2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0853D0426B8014D00DA2F2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0853D0326B8014D00DA2F2A /* Cermati-Unsplash.app */,
+				C0853D1426B8014F00DA2F2A /* Cermati-UnsplashTests.xctest */,
+				C0853D1F26B8014F00DA2F2A /* Cermati-UnsplashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0853D0526B8014D00DA2F2A /* Cermati-Unsplash */ = {
+			isa = PBXGroup;
+			children = (
+				C0853D0626B8014D00DA2F2A /* Cermati_UnsplashApp.swift */,
+				C0853D0A26B8014F00DA2F2A /* Assets.xcassets */,
+				C018E75426B8772C00259CDD /* View */,
+				C018E75226B8771E00259CDD /* Helper */,
+				C018E75026B8770D00259CDD /* Model */,
+				C018E75526B88E3400259CDD /* ViewModel */,
+				C0853D0F26B8014F00DA2F2A /* Info.plist */,
+				C018E75626B88E4200259CDD /* Trash */,
+				C0853D0C26B8014F00DA2F2A /* Preview Content */,
+			);
+			path = "Cermati-Unsplash";
+			sourceTree = "<group>";
+		};
+		C0853D0C26B8014F00DA2F2A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0853D0D26B8014F00DA2F2A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0853D1726B8014F00DA2F2A /* Cermati-UnsplashTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0853D1826B8014F00DA2F2A /* Cermati_UnsplashTests.swift */,
+				C0853D1A26B8014F00DA2F2A /* Info.plist */,
+			);
+			path = "Cermati-UnsplashTests";
+			sourceTree = "<group>";
+		};
+		C0853D2226B8014F00DA2F2A /* Cermati-UnsplashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0853D2326B8014F00DA2F2A /* Cermati_UnsplashUITests.swift */,
+				C0853D2526B8014F00DA2F2A /* Info.plist */,
+			);
+			path = "Cermati-UnsplashUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0853D0226B8014D00DA2F2A /* Cermati-Unsplash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0853D2826B8014F00DA2F2A /* Build configuration list for PBXNativeTarget "Cermati-Unsplash" */;
+			buildPhases = (
+				C0853CFF26B8014D00DA2F2A /* Sources */,
+				C0853D0026B8014D00DA2F2A /* Frameworks */,
+				C0853D0126B8014D00DA2F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cermati-Unsplash";
+			productName = "Cermati-Unsplash";
+			productReference = C0853D0326B8014D00DA2F2A /* Cermati-Unsplash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0853D1326B8014F00DA2F2A /* Cermati-UnsplashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0853D2B26B8014F00DA2F2A /* Build configuration list for PBXNativeTarget "Cermati-UnsplashTests" */;
+			buildPhases = (
+				C0853D1026B8014F00DA2F2A /* Sources */,
+				C0853D1126B8014F00DA2F2A /* Frameworks */,
+				C0853D1226B8014F00DA2F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0853D1626B8014F00DA2F2A /* PBXTargetDependency */,
+			);
+			name = "Cermati-UnsplashTests";
+			productName = "Cermati-UnsplashTests";
+			productReference = C0853D1426B8014F00DA2F2A /* Cermati-UnsplashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0853D1E26B8014F00DA2F2A /* Cermati-UnsplashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0853D2E26B8014F00DA2F2A /* Build configuration list for PBXNativeTarget "Cermati-UnsplashUITests" */;
+			buildPhases = (
+				C0853D1B26B8014F00DA2F2A /* Sources */,
+				C0853D1C26B8014F00DA2F2A /* Frameworks */,
+				C0853D1D26B8014F00DA2F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0853D2126B8014F00DA2F2A /* PBXTargetDependency */,
+			);
+			name = "Cermati-UnsplashUITests";
+			productName = "Cermati-UnsplashUITests";
+			productReference = C0853D1F26B8014F00DA2F2A /* Cermati-UnsplashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0853CFB26B8014C00DA2F2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C0853D0226B8014D00DA2F2A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C0853D1326B8014F00DA2F2A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C0853D0226B8014D00DA2F2A;
+					};
+					C0853D1E26B8014F00DA2F2A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C0853D0226B8014D00DA2F2A;
+					};
+				};
+			};
+			buildConfigurationList = C0853CFE26B8014C00DA2F2A /* Build configuration list for PBXProject "Cermati-Unsplash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0853CFA26B8014C00DA2F2A;
+			productRefGroup = C0853D0426B8014D00DA2F2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0853D0226B8014D00DA2F2A /* Cermati-Unsplash */,
+				C0853D1326B8014F00DA2F2A /* Cermati-UnsplashTests */,
+				C0853D1E26B8014F00DA2F2A /* Cermati-UnsplashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0853D0126B8014D00DA2F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0853D0E26B8014F00DA2F2A /* Preview Assets.xcassets in Resources */,
+				C0853D0B26B8014F00DA2F2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0853D1226B8014F00DA2F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0853D1D26B8014F00DA2F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0853CFF26B8014D00DA2F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DEBB9E26B85A4D008C2DDD /* UIColor+Hex.swift in Sources */,
+				C0853D3526B801CB00DA2F2A /* Model.swift in Sources */,
+				C0853D0926B8014D00DA2F2A /* ContentView.swift in Sources */,
+				C07CC7CA26B849C300F9EAF2 /* ImageLoader.swift in Sources */,
+				C018E74F26B876FF00259CDD /* GridViewModel.swift in Sources */,
+				C02AAB9526B92BE900604F3C /* WaterfallGridView.swift in Sources */,
+				C0853D3A26B8026500DA2F2A /* SearchViewModel.swift in Sources */,
+				C0853D3F26B8053200DA2F2A /* GridView.swift in Sources */,
+				C0853D0726B8014D00DA2F2A /* Cermati_UnsplashApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0853D1026B8014F00DA2F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0853D1926B8014F00DA2F2A /* Cermati_UnsplashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0853D1B26B8014F00DA2F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0853D2426B8014F00DA2F2A /* Cermati_UnsplashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0853D1626B8014F00DA2F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0853D0226B8014D00DA2F2A /* Cermati-Unsplash */;
+			targetProxy = C0853D1526B8014F00DA2F2A /* PBXContainerItemProxy */;
+		};
+		C0853D2126B8014F00DA2F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0853D0226B8014D00DA2F2A /* Cermati-Unsplash */;
+			targetProxy = C0853D2026B8014F00DA2F2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0853D2626B8014F00DA2F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0853D2726B8014F00DA2F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0853D2926B8014F00DA2F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cermati-Unsplash/Preview Content\"";
+				DEVELOPMENT_TEAM = 3QN5S48CNC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Cermati-Unsplash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rinne.Cermati-Unsplash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0853D2A26B8014F00DA2F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cermati-Unsplash/Preview Content\"";
+				DEVELOPMENT_TEAM = 3QN5S48CNC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Cermati-Unsplash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rinne.Cermati-Unsplash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0853D2C26B8014F00DA2F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QN5S48CNC;
+				INFOPLIST_FILE = "Cermati-UnsplashTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rinne.Cermati-UnsplashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cermati-Unsplash.app/Cermati-Unsplash";
+			};
+			name = Debug;
+		};
+		C0853D2D26B8014F00DA2F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QN5S48CNC;
+				INFOPLIST_FILE = "Cermati-UnsplashTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rinne.Cermati-UnsplashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cermati-Unsplash.app/Cermati-Unsplash";
+			};
+			name = Release;
+		};
+		C0853D2F26B8014F00DA2F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QN5S48CNC;
+				INFOPLIST_FILE = "Cermati-UnsplashUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rinne.Cermati-UnsplashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cermati-Unsplash";
+			};
+			name = Debug;
+		};
+		C0853D3026B8014F00DA2F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QN5S48CNC;
+				INFOPLIST_FILE = "Cermati-UnsplashUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rinne.Cermati-UnsplashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cermati-Unsplash";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0853CFE26B8014C00DA2F2A /* Build configuration list for PBXProject "Cermati-Unsplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0853D2626B8014F00DA2F2A /* Debug */,
+				C0853D2726B8014F00DA2F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0853D2826B8014F00DA2F2A /* Build configuration list for PBXNativeTarget "Cermati-Unsplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0853D2926B8014F00DA2F2A /* Debug */,
+				C0853D2A26B8014F00DA2F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0853D2B26B8014F00DA2F2A /* Build configuration list for PBXNativeTarget "Cermati-UnsplashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0853D2C26B8014F00DA2F2A /* Debug */,
+				C0853D2D26B8014F00DA2F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0853D2E26B8014F00DA2F2A /* Build configuration list for PBXNativeTarget "Cermati-UnsplashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0853D2F26B8014F00DA2F2A /* Debug */,
+				C0853D3026B8014F00DA2F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0853CFB26B8014C00DA2F2A /* Project object */;
+}
